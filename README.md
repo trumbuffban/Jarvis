@@ -30,4 +30,22 @@ It is roughly divided into two parts:
 - High latency 
 - a chatbox don't have checkpointer and short-term memory
 - I want to add HITL to my agent
-- etc ... 
+- etc ...
+### How to Run
+
+First, install the project dependencies:
+
+```bash
+uv sync
+```
+
+Then, start the Streamlit application:
+
+```bash
+uv run streamlit run src/langgraph_agent/app.py
+```
+
+After running the command, Streamlit will provide a local URL. Open it in your browser to interact with the agent.
+
+> **Note:** The agent is still under development, so some features may be unstable or have relatively high latency depending on the LLM being used.
+
