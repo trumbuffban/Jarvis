@@ -24,7 +24,8 @@ It is roughly divided into two parts:
 
 * **Backend** — The AI agent itself, built with **LangGraph**. This is where the agent's workflow, memory, planning, execution, observation, and evaluation logic are implemented.
 * **Frontend** — A very simple **Streamlit** interface. 
-Some cons:
+
+### Some Cons:
 - Some SYSTEMPROMPT(I use AI to create it) isn't effective and meet the "Human-like" condition
 - High latency 
 - a chatbox don't have checkpointer and short-term memory
