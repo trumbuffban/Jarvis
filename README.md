@@ -38,7 +38,10 @@ First, install the project dependencies:
 ```bash
 uv sync
 ```
-
+Then, run file set_up.py
+```bash
+uv run python src/langgraph_agent/set_up.py
+```
 Then, start the Streamlit application:
 
 ```bash
