@@ -9,7 +9,8 @@ flowchart TD
     C --> E[Observation]
     E --> F[Evaluator]
     F -->|Retry| C
-    F -->|Done| G[Final Answer]
-    E --> H[(Work Memory)]
-    H --> C
+    F -->|Final Answer| G[Memorize]
+    G -->|END| H[OUTPUT]
+    E --> I[(Work Memory)]
+    I --> C
 ```
