@@ -14,7 +14,7 @@ The agent is still in its **very early stages**. I'm using some free LLMs to bui
 
 * The project contains some strange parts, such as **Jupyter notebooks**. These were part of my initial development process, where I experimented with the agent in notebooks before moving everything into a proper project structure.
 * I'm doing this intentionally because I want to learn **how to develop a project professionally**
-* (I try uv project eventually and struggle with it for a long time, it have an specific error with my mac and take me lots of hours)
+(I tried using uv for the project, but I struggled with it for a long time. It had a specific error on my Mac that took me many hours to resolve.)
 
 ### Main Project
 
@@ -26,11 +26,12 @@ It is roughly divided into two parts:
 * **Frontend** — A very simple **Streamlit** interface. 
 
 ### Some Cons:
-- Some SYSTEMPROMPT(I use AI to create it) isn't effective and meet the "Human-like" condition
-- High latency 
-- a chatbox don't have checkpointer and short-term memory
-- I want to add HITL to my agent
-- etc ...
+-Some SYSTEM PROMPTS (I used AI to create them) aren't effective and don't meet the "human-like" requirement.
+-High latency.
+-The chatbox doesn't have a checkpointer or short-term memory.
+-I want to add HITL to my agent.
+-etc.
+
 ### How to Run
 
 First, install the project dependencies:
